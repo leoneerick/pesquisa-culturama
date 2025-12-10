@@ -13,10 +13,8 @@
     </header>
     <section>
         <form action="" method="get">
-            <fieldset>
-
-            <!-- Dados Pessoais -->   
-             
+            <!-- <fieldset> 
+            
             <legend>Dados Pessoais</legend>
 
             <label for="userName">Nome</label>
@@ -42,6 +40,28 @@
             <label for="userImage">Upload de Foto</label>
             <input type="file" accept="image/*" name="userImage">
             <br>
+            </fieldset> -->
+
+            <fieldset>
+
+                <!-- Campos de Perfil -->
+
+                <legend>Perfil</legend>
+
+                <p>Gênero:</p>
+
+                <input type="radio" name="userGender" value="Feminino">
+                <label for="userGender">Feminino</label>
+                <br>
+                
+                <input type="radio" name="userGender" value="Masculino">
+                <label for="userGender">Masculino</label>
+                <br>
+
+                <input type="radio" name="userGender" value="notInformed">
+                <label for="userGender">Prefiro não responder</label>
+                <br>
+
             </fieldset>
 
             <button type="submit">Enviar</button>
